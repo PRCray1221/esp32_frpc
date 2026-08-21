@@ -1,0 +1,24 @@
+# Arduino / PlatformIO 构建产物
+build/
+.pio/
+dist/
+*.elf
+*.bin
+*.hex
+*.partitions.bin
+
+# Arduino IDE
+*.ino.cpp
+*.ino.h
+.arduino/
+Arduino15/
+
+# IDE / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 备份文件
+*.bak
+*.bak_*
